@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registrazione</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Prata&display=swap');
+
+        .image-container {
+            margin: 0;
+            padding: 0;
+            height: 500px;
+            width: 100%;
+            background-image: url('https://tourismmedia.italia.it/is/image/mitur/20220119115535-piazza-del-duomo-all-alba-milano-lombardia-shutterstock-1161075943-rid-1?wid=760&hei=600&fit=constrain,1&fmt=webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .principal {
+            padding: 20px;
+        }
+        .image-title{
+            font-family: 'Prata', serif;
+            font-size: 64px;
+            margin-bottom: 0;
+        }
+        .image-subtitle{
+            font-family: 'Prata', serif;
+            font-size: 24px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .body-style{
+            font-family: 'Montserrat', italic;
+        }
+        .luoghi{
+            padding: 22px;
+            margin-bottom: 0;
+            margin-top: 56px;
+            color: azure;
+            border-radius: 6px;
+            background: linear-gradient(to right, #f2cba2, #8ca3b1);
+        }
+        .lista{
+            padding-left: 22px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            border-bottom: 1px;
+            border-color:#dfdfdf;
+            color: #f2cba2;
+        }
+    </style>
+
+</head>
+<body class="body-style">
+    <div class="image-container">
+    </div>
+    <h1 class="image-title">
+        Milano
+    </h1>
+    <h3 class ="image-subtitle">
+        Duomo di Milano
+    </h3>
+    <h5>
+        Il Duomo di Milano è una delle cattedrali gotiche più iconiche d’Europa, situata nel cuore della città. Dedicato a Santa Maria Nascente, il Duomo colpisce per la sua maestosità, le oltre 3.400 statue e le intricate guglie che svettano verso il cielo. La sua costruzione iniziò nel 1386 e richiese secoli per essere completata. Dalla terrazza si gode una vista spettacolare sulla città e, nelle giornate limpide, perfino sulle Alpi.
+    </h5>
+    <a class="image-subtitle"  href="https://tourismmedia.italia.it/is/image/mitur/20220119115535-piazza-del-duomo-all-alba-milano-lombardia-shutterstock-1161075943-rid-1?wid=760&hei=600&fit=constrain,1&fmt=webp">
+        Andi Gjika 
+    </a>
+    <h6 class = "luoghi">
+        Luoghi correlati
+    </h6>
+    <ul class="lista">
+        <li>Salire sulle terrazze del Duomo per ammirare le guglie da vicino e godere di una vista spettacolare sulla città.</li>
+        <li>Entrare nella cattedrale per scoprire le sue imponenti navate, le vetrate colorate e le decorazioni gotiche.</li>
+        <li>Visitare la cripta di San Carlo Borromeo, situata sotto l’altare maggiore, dove riposano le spoglie del santo.</li>
+        <li>Esplorare il Museo del Duomo per approfondire la storia, l’arte e l’architettura della cattedrale.</li>
+        <li>Scendere sotto Piazza del Duomo per vedere i resti del Battistero di San Giovanni alle Fonti, uno dei più antichi di Milano.</li>
+    </ul>
+
+    <div class="principal">
+        <form onsubmit="alert"> 
+            <div>
+            <input type="text", placeholder="Nome">
+            </div>
+            <div>
+                <input type="text", placeholder="Cognome">
+            </div>
+            <div>
+                <input type="email", placeholder="Indirizzo email">
+            </div>
+            <div>
+                <input type="password", placeholder="Password">
+            </div>
+            <div>
+                <input type="date", placeholder="Data nascita">
+            </div>
+            <div>
+                <input type="number", placeholder="Numero di telefono">
+            </div>
+            <div>
+                <input type="checkbox", id="Rock">
+                <label for="pop"> Rock  </label>
+            </div>
+            <div>
+                <input type="checkbox", id="pop">
+                <label for="pop"> Pop  </label>
+            </div>
+            <div>
+                <input type="radio", id="Termini e Cond">
+                <label for="Termini e Cond"> Termini e Condizioni  </label>
+            </div>
+            <button type="submit" >Invia registrazione</button>
+
+        </form>
+    </div>
+   
+</body>
+
+</html>
