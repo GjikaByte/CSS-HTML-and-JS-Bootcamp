@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <!-- Head racchiude tutte le meta-informazioni che costituiscono la configurazione del nostro documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="my first HTML page">
+    <title>U1 W1 D2 HTML</title>
+</head>
+<body>
+    <h1>Tabelle</h1>
+    <table>
+        <caption>Presenze studenti</caption>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Anno</th>
+                <th>Presenze</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Andi</td>
+                <td>25</td>
+                <td> 20</td>
+            </tr>
+            <tr>
+                <td>Giulia</td>
+                <td>24</td>
+                <td> 18</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Totale</td>
+                <td>38</td>
+            </tr>
+        </tfoot>
+    </table>
+    <img src="https://media.adeo.com/marketplace/LMIT/35498022/564740.jpeg?width=650&height=650&format=jpg&quality=80&fit=bounds" alt="Ombrellone" width="200px" >
+
+    <h1>Form</h1>
+    <form method="get"  action="answer.html">
+        <fieldset>
+            <legend> Form di Registrazione</legend>
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" required placeholder=" Inserire Nome">
+            <label for="surname">Cognome</label>
+            <input type="text" id="name" name="name" required placeholder=" Inserire Cognome">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder=" Inserire Email">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required placeholder=" Inserire Password">
+            <label for="message">Messaggio</label>
+            <textarea id="message" name="message" rows="4" cols="50" placeholder="Inserire un messaggio"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Preferenze</legend>
+            <label for="newsletter">Iscriviti alla newsletter</label>
+            <input type="checkbox" id="newsletter" name="newsletter">
+            <label for="terms">Accetto i termini e le condizioni</label>
+            <input type="checkbox" id="terms" name="terms" required>
+        </fieldset>
+        <button type="submit">INVIA</button>
+    </form>
+    <p> tipo di frequenza:</p>
+    <select name="frequenza" id="frequenza">   
+        <option value="full-time">Full-time</option>
+        <option value="part-time">Part-time</option>
+        <option value="online">Online</option>
+    </select>
+    <p>Seleziona il tuo colore preferito:</p>
+    <input type="radio" id="red" name="color" value="red">
+    <label for="red">Rosso</label>
+    <input type="radio" id="green" name="color" value="green">
+    <label for="green">Verde</label>
+    <input type="radio" id="blue" name="color" value="blue">
+    <label for="blue">Blu</label>  
+<br>
+    <audio controls>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+        Il tuo browser non supporta l'elemento audio.
+    </audio>
+    <br>
+    <video width="320" height="240" controls>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        Il tuo browser non supporta il video.
+    </video>
+    <br>    
+    <picture>
+        <source srcset="https://media.adeo.com/marketplace/LMIT/35498022/564740.jpeg?width=650&height=650&format=jpg&quality=80&fit=bounds" type="image/jpeg">
+        <img src="https://media.adeo.com/marketplace/LMIT/35498022/564740.jpeg?width=650&height=650&format=jpg&quality=80&fit=bounds" alt="Immagine di esempio" width="300">
+    </picture>
+    <br>
+    <iframe src="https://www.repubblica.it/" width="300" height="200" title="Esempio di iframe"></iframe>
+    <br>
+
+</body>
+</html>
