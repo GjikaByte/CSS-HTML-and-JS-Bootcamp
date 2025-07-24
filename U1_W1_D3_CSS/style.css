@@ -11,21 +11,27 @@
         padding: 20px 0 10px;
     }
 
+    img {
+        margin-top: 1rem;
+    }
+
     .logo img {
         height: 40px;
     }
 
     #parte {
-        font-size: 12px;
+        font-size: 1rem;
         color: #2a0daa;
-        background-color: #faf5b8;
+        background-color: #fffdec;
         margin-top: 10px;
+        border-top: 2px solid #e1cf02;
+        border-bottom: solid transparent;
     }
 
     .title {
         text-align: center;
-        max-width: 600px;
-        margin: 30px auto 10px;
+        max-width: 700px;
+        margin-inline: auto ;
         padding: 0 20px;
     }
 
@@ -36,7 +42,7 @@
     }
 
     .intro {
-        font-size: 16px;
+        font-size: 1rem;
         line-height: 1.5;
         text-align: center;
         max-width: 700px;
@@ -59,10 +65,11 @@
     }
 
     .featured {
-        font-size: 13px;
-        text-align: center;
-        margin: 30px 0 20px;
+        font-size: 1rem;
+        text-align: left;
+        margin: 1.5rem 0rem 1.5rem;
         color: #b8860b;
+        border-left: 2px solid yellow;
     }
 
     .featured a {
