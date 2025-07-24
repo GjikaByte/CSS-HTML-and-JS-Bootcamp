@@ -1,0 +1,126 @@
+/* IMPOSTAZIONI GENERALI */
+* {
+    font-family: poppins, sans-serif;
+}
+body {
+    background-image: url('./sfondo.png');
+    text-align: center;
+}
+/* HEADER */
+header {
+    background-color: #2e5e7e;
+    background: linear-gradient(to top, #7a72d7, #b8b0f2);
+    text-align: center;
+    margin-left: 23rem;
+    margin-right: 23rem;
+    border-radius: 20px;
+    margin-bottom: 1em;
+    padding: 1em 0;
+    border-radius: 10px;
+}
+
+header p {
+    color: aliceblue;
+}
+
+header a {
+    color: aliceblue;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+/* MAIN */
+
+main {
+    background-color: azure;
+    padding: 1rem;
+    margin-left: 23rem;
+    margin-right: 23rem;
+    border-radius: 20px;
+}
+main h1, p {
+    text-align: left;
+}
+
+.author {
+    text-align: left;
+    font-style: italic;
+    font-size: .8rem;
+    color: #959fa6;
+}
+
+main code {
+    background-color: #e1e1e1;
+    border: solid 1px #ccc;
+    padding: 0.1rem;
+    border-radius: 7px;
+}
+/* ELEMENTI NEL MAIN - ARTICLE */
+.newsletter {
+    background-color: #e1e1e1;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.newsletter input[type="email"] {
+    width: 70%;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.newsletter button {
+    padding: 0.5rem 1rem;
+    background-color: #5b70d7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.related-article {
+    background-color: #e1e1e1;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+iframe {
+    margin-top: 3rem;
+    border-radius: 10px;
+}
+
+/* TABELLE */
+table {
+    width: fit-content;;
+    text-align: center;
+    margin: 0.7rem auto;
+}
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+aside {
+    background-color: #f6f6f6;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+    text-align: left;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #2e5e7e;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    font-size: 0.8rem;
+}
+
+/* NEWSLETTER SECTION */
