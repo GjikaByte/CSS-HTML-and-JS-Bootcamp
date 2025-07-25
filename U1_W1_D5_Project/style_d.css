@@ -1,0 +1,179 @@
+body {
+  max-width: 800px;
+  margin: auto;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.65;
+  color: #393d41;
+  background-color: #eff2f3;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #1da2c7;
+  line-height: 1.5;
+}
+
+.logo-container {
+  background-color: black;
+  height: 80px;
+  line-height: 80px;
+  text-align: left;
+}
+
+.logo {
+  height: 50px;
+  vertical-align: left;
+  margin: 10px 0 0 70px;
+}
+
+.top {
+  background-image: url('./Esercizio/images/banner.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #131414;
+  padding: 70px 60px;
+}
+
+.top-text {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.top h1 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+.top p {
+  margin-bottom: 20px;
+}
+
+.cta {
+  background-color: #f04c2f;
+  color: #eff2f3;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 5%;
+}
+
+.main-layout {
+  padding: 40px;
+}
+
+.intro {
+  overflow: auto;
+  margin-bottom: 50px;
+}
+
+.circle-img {
+  float: left;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-right: 40px;
+  object-fit: cover;
+}
+
+.intro-text {
+  overflow: hidden;
+}
+
+.testimonials {
+  background-color: #e22d0e;
+  color: #eff2f3;
+  padding: 30px 20px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.testimonials .quote {
+  font-style: italic;
+  margin: 15px 0;
+}
+
+.testimonials h1 {
+  color: #eff2f3;
+}
+
+.cards {
+  overflow: auto;
+  margin-bottom: 50px;
+}
+
+.card {
+  width: 32%;
+  float: left;
+  margin-right: 2%;
+  border: 1px solid #dee1e3;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.card:last-child {
+  margin-right: 0;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.footer {
+  background-color: #25a2c3;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  clear: both;
+}
+
+.footer h2 {
+  color: #eff2f3;
+  font-size: 1.7rem;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 7px 0;
+}
+
+.contact-list li {
+  margin-bottom: 10px;
+}
+
+.contact-list a {
+  color: #eff2f3;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.contact-list a {
+  text-decoration: underline;
+}
+
+.footer li {
+  color: #eff2f3;
+  margin-bottom: 5px;
+}
+
+footer hr {
+  border: none;
+  border-top: 1px solid #c8e7f0;
+  margin: 17px auto;
+  width: 70%;
+}
+
+.footer .copyright {
+  color: #c8e7f0;
+  margin-top: 10px;
+  font-size: 0.7rem;
+}
