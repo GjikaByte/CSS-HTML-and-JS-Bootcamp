@@ -189,13 +189,12 @@ for (i=0; i< starWarsCharacters.length; i++) {
 
 console.log("____________");
 
-let crewMass = 0;
-i=0;
+let crewMass = 0
 
-while (i < starWarsCharacters.length) {
-  crewMass += starWarsCharacters[i].mass;
-  i++;
-}
+for (i=0; i<starWarsCharacters.length; i++) {
+		crewMass += starWarsCharacters[i].mass
+};
+
 console.log("Total crew mass:", crewMass);
 
 
@@ -264,9 +263,11 @@ while (femaleNames.length>0){
   }
 }
 
+
 /* --EXTRA-- ESERCIZIO 10
   Crea una funzionalità che selezioni un elemento casuale dall'array "starWarsCharacters" e ne stampi in console le proprietà in modo discorsivo (a tuo piacimento).
 */
 
 j = Math.floor(Math.random() * starWarsCharacters.length);
 console.log(`Il personaggio selezionato casualmente è ${starWarsCharacters[j].name}. È alto ${starWarsCharacters[j].height} cm e pesa ${starWarsCharacters[j].mass} kg. Ha i capelli di colore ${starWarsCharacters[j].hair_color}, la pelle di colore ${starWarsCharacters[j].skin_color} e gli occhi di colore ${starWarsCharacters[j].eye_color}. È nato nell'anno ${starWarsCharacters[j].birth_year} e il suo genere è ${starWarsCharacters[j].gender}.`);
+
