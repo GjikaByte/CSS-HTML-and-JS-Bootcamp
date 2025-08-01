@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eaeded;
+    max-width: 1330px;
+}
+
+.nav {
+    background-color: #222F3F;
+    padding: 0.7rem 1.3rem;
+    overflow: hidden;
+    display: block;
+}
+
+.logo1 {
+    width: 100px;
+    float: left;
+}
+
+.logo2 {
+    width: 100px;
+    padding-bottom: 1.3rem;
+}
+
+.nav-links {
+    list-style: none;
+    width: 99%;
+    margin: 0;
+    padding-left: 1%;
+    float: left;
+    background-color: #364759;
+    
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-right: 1.3rem;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.85rem;
+}
+
+.top-banner {
+    background-color: #F56600;
+    margin-top: 1.3rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    text-align: center;
+    padding: 0.75rem;
+    font-size: 0.9rem;
+    color: white;
+}
+
+.hero {
+    background-image: url("../images/bg-image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    background-size: contain;
+    color: white;
+    text-align: center;
+    padding: 3rem 1rem;
+    font-weight: bold;
+}
+
+.hero h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero h2 {
+    font-size: 1rem;
+}
+
+.gift-section {
+    margin-left: 8rem;
+    margin-right: 8rem;
+    padding: 2rem 1rem;
+    text-align: center;
+    background-color: #f3f5f8;
+    box-shadow: 0 3px 13px rgba(0, 0, 0, 0.1);
+}
+
+.gift-header {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.gift-header a {
+    color: #007185;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.gift-cards {
+    text-align: center;
+}
+
+.gift-cards img {
+    display: inline-block;
+    vertical-align: top;
+    width: 22%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    margin: 0.75rem;
+    border-radius: 12px;
+    box-shadow: 0 3px 11px rgba(0, 0, 0, 0.08);
+}
+
+.image-banner {
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+.image-banner img {
+    width: 100%;
+    max-width: 83%;
+    border-radius: .6rem;
+}
+
+.image-banner p {
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.image-banner a {
+    color: #007185;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #222F3F;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.footer_a {
+    background-color: #222F3F;
+    color: white;
+    text-align: center;
+    padding: 0.7rem 0;
+    width: 100%;
+    display: block;
+    background-color: #364759;
+}
+
+.footer a {
+    display: block;
+    margin-bottom: 1rem;
+    color: #d6e2f0;
+    background-color: #364759;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
